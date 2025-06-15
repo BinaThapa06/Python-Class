@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .box {
+            height: 400px;
+            width: 400px;
+            background-color: greenyellow;
+            border: black 1px solid;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #box1 {
+            text-align: center;
+            /* color: red; */
+            background-color: aqua;
+            /* display: none; */
+        }
+
+        #box1>p {
+            color: red;
+        }
+
+        .container {
+            background-color: yellow;
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* flex-direction: column; */
+            gap: 20px;
+            min-height: 100vh;
+
+            /* display: grid; */
+        }
+        .container1{
+            display: grid;
+            grid-auto-columns: auto;
+            grid-template-columns: 25% 50% 25%;
+            column-gap: 10px;
+            /* row-gap: 10px; */
+
+            grid-template-columns: 500px;
+        }
+        .container1 > div{
+            margin: 10px;
+            padding: 10px;
+            background-color: green;
+
+        }
+            
+            
+    </style>
+</head>
+
+<body>
+    <h1>Box Model</h1>
+    <div class="container">
+        <div class="box" id="box1">
+            <p>Skill Training Center</p>
+           
+        </div>
+
+        <div class="box">
+            <p>Skill Training Center</p>
+        </div>
+
+        <div class="box">
+            <p>Skill Training Center</p>
+
+        </div>
+
+        <div class="box">
+            <p>Skill Training Center</p>
+
+        </div>
+    </div>
+
+    <div class="container1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        </div>
+
+</body>
+
+</html>

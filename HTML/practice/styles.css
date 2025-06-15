@@ -1,0 +1,26 @@
+h1, h3, h5 {
+            color: greenyellow;
+        }
+
+        h2, h4, h6 {
+            color: yellow;
+        }
+        body{
+            background-color: plum;
+            font-family: 'Courier New', Courier, monospace;
+            background-image: url("images/tiger.jpg");
+            background-repeat: no-repeat;
+            background-position: middle;
+            background-size: 1012px;
+
+
+
+            /* background: bisque url('Lizard.jpg') no-repeat right top; */
+        }
+        #first-heading {
+            color: rgba(25, 231, 231, 0.932);
+        }
+
+        .blue-color{
+            color: blue;
+        }

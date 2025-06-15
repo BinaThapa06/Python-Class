@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      background-color: aqua;
+      padding: 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+    }
+    nav ul{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li{
+      margin: 0 15px;
+    }
+    nav ul li a{
+      color: blue;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    nav ul li a:hover{
+      color: red;
+    }
+
+  section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+
+    #home { background-color: rgb(230, 173, 173); }
+    #about { background-color: rgb(243, 236, 18); }
+    #services { background-color: rgb(21, 229, 49); }
+    #contact { background-color: rgb(80, 28, 224); }
+
+  }
+
+  footer{
+    background-color: pink;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .slides{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+  }
+  .slides img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0%;
+
+   
+  }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#service">Service</a></li>
+      </ul>
+
+    </nav>
+    <div class="slider">
+      <div class="slides">
+        <img src="images/panda.jpg" alt="image1">
+        <img src="images/tiger.jpg" alt="images2">
+      </div>
+    </div>
+  </header>
+  
+  <section id="home"> <h2>Home Section</h2></section>
+  <section id="about"><h2>About Section</h2></section>
+  <section id="contact"><h2>Contact Section</h2></section>
+  <section id="service"><h2>Service Section</h2></section>
+
+<footer>
+  <p>&copy;Copyright example.com</p>
+</footer>
+
+
+ 
+  
+</body>
+
+</html>

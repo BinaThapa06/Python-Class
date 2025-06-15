@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS Practice</title>
+      <style>
+        p{
+            border-color: rgb(148, 255, 60);
+            border-width: thick;
+            border-style: solid;
+
+            border: solid 1px gold;
+        }
+        
+        p.dotted{
+            border-style:dotted;
+        }
+
+        p.mix{
+            border-style: dashed dotted solid double;
+        }
+
+        p.random-width{
+            border-width: 5px 10px 15px 20px;
+            border-radius: 10px;
+        }
+        p.other-style{
+            padding: 10px;
+            margin: 10px;
+
+            padding: 5px 10px 15px 20px;
+            margin: 20px 15px 10px 5px;
+            background-image: url("images/panda.jpg");
+            background-size: contain;
+
+            text-align: center;
+            font-size: large;
+            font-variant: small-caps;
+            font-weight: bolder;
+            text-shadow: 2px 2px green;
+            font-family: Georgia, 'Times New Roman', Times, serif0;
+            font-style: italic;
+
+        }
+        
+        p.other-style:hover{
+            color: yellow;
+            background-color: blueviolet;
+            scale: 105%;
+        }
+
+    
+      </style>
+    
+
+</head> 
+<body>
+    <h1 id="first-heading">CSS Practice New</h1>
+    <p class="dotted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+    <p class="mix">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <p class="random-width">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <p class="other-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+</body>
+</html>

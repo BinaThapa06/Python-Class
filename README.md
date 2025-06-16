@@ -2,4 +2,4 @@
 
 1.PYTHON
 2.HTML and CSS
-DJango
+3.DJango

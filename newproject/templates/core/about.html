@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bina's Profile</title>
+  <style>
+    body {
+      background-color: pink;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    nav {
+      background-color: skyblue;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: black;
+      text-decoration: none;
+    }
+
+    .card {
+      background: white;
+      width: 90%;
+      max-width: 800px;
+      margin: 40px auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    #profile {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    #profile img {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    #profile img:hover {
+      transform: scale(1.05);
+      box-shadow: 20px;
+
+    .card-content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    #contact img {
+      width: 60px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#profile">Profile</a>
+    <a href="#address">Address</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="card" id="profile">
+    <img src="/HTML/practice/images/nature.jpg" alt="nature's Photo">
+    <div class="card-content">
+      <h2>Bina</h2>
+      <p>Greenary and Beautiful Nature.</p>
+    </div>
+  </div>
+
+  <div class="card" id="address">
+    <div class="card-content">
+      <h3>Address</h3>
+      <p>New Thimi, Nepal</p>
+    </div>
+  </div>
+
+  <div class="card" id="contact">
+    <img src="/HTML/practice/images/contact no..png" alt="contact logo">
+    <div class="card-content">
+      <h3>Contact</h3>
+      <p>📞 +977-123456</p>
+      <p>✉️ bina@email.com</p>
+    </div>
+  </div>
+
+</body>
+</html>
